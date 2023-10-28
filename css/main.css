@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(/css/img/back_fourth.jpg);
+}
+
+nav {
+    height: 100px;
+    background: #ff007b;
+}
+
+ul {
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+li {
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #000000;
+}
+
+li:hover {
+    background: white;
+    color: #000;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.gallery-menu {
+    height: 279px;
+    list-style-type: none;
+    display: flex;
+    color: white;
+    
+    align-items: center;
+    background: #ff007b;
+    flex-direction: column;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.button-white {
+    color: #000;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #fff;
+}
